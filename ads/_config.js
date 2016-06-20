@@ -62,6 +62,7 @@ export const adPrefetch = {
   ],
   nend: 'https://js1.nend.net/js/amp.js',
   adgeneration: 'https://i.socdm.com/sdk/js/adg-script-loader.js',
+  caprofitx: 'https://cdn.caprofitx.com/pfx.min.js',
 };
 
 /**
@@ -169,6 +170,10 @@ export const adPreconnect = {
     'https://js1.nend.net',
     'https://output.nend.net',
     'https://img1.nend.net',
+  ],
+  caprofitx: [
+    'https://cdn.caprofitx.com',
+    'https://ad.caprofitx.adtdp.com',
   ],
 };
 
